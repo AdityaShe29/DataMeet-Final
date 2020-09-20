@@ -2,7 +2,7 @@ import boto3
 import base64
 import imageio
 import json
-client=boto3.client('rekognition',aws_access_key_id="AKIA4PHC362UPWQYYS42",aws_secret_access_key="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",region_name="us-east-1")
+client=boto3.client('rekognition',aws_access_key_id="",aws_secret_access_key="",region_name="us-east-1")
 emotions=["CONFUSED","HAPPY","SAD","SURPRISED"]
 
 def get_emotion(frame):
